@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class TopicConfigUpdatePlan {
 
   private static final Logger LOGGER = LogManager.getLogger(TopicConfigUpdatePlan.class);
-
+  private static final String EXCLUDED_DYNAMIC_CONFIG = "confluent.placement.constraints";
   private final Topic topic;
   private boolean updatePartitionCount;
   private Map<String, String> newConfigValues = new HashMap<>();
@@ -112,10 +112,16 @@ public class TopicConfigUpdatePlan {
         .entries()
         .forEach(
             entry -> {
-              if (isDynamicTopicConfig(entry) && !configKeys.contains(entry.name())) {
+              if (isCandidateForDeletion(entry, configKeys)) {
                 addConfigToDelete(entry.name(), entry.value());
               }
             });
+  }
+
+  private boolean isCandidateForDeletion(ConfigEntry currentEntry, Set<String> configKeys) {
+    return isDynamicTopicConfig(currentEntry)
+            && !currentEntry.name().equals(EXCLUDED_DYNAMIC_CONFIG)
+            && !configKeys.contains(currentEntry.name());
   }
 
   private boolean isDynamicTopicConfig(ConfigEntry currentConfigEntry) {

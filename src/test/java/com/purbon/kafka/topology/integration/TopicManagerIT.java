@@ -39,6 +39,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.stream.Collectors;
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.Config;
+import org.apache.kafka.clients.admin.ConfigEntry;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.common.config.ConfigResource;
 import org.apache.kafka.common.config.ConfigResource.Type;
@@ -52,7 +53,7 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
 public class TopicManagerIT {
-
+  private final String REPLICA_PLACEMENT_JSON = "{\"version\":2,\"replicas\":[{\"count\":1,\"constraints\":{\"rack\":\"test\"}}],\"observers\":[],\"observerPromotionPolicy\":\"under-min-isr\"}";
   private static SaslPlaintextKafkaContainer container;
   private TopicManager topicManager;
   private AdminClient kafkaAdminClient;
@@ -354,6 +355,45 @@ public class TopicManagerIT {
 
     verifyTopicConfiguration(topicA.toString(), config, Collections.singletonList("segment.bytes"));
   }
+
+  @Test
+  public void testTopicWithDynamicConfigUpdate() throws ExecutionException, InterruptedException, IOException {
+
+    HashMap<String, String> config = buildDummyTopicConfig();
+    config.put("retention.bytes", "104857600"); // set the retention.bytes per partition to 100mb
+    config.put("segment.bytes", "104857600");
+
+    Topology topology = new TopologyImpl();
+    topology.setContext("testTopicConfigUpdate-test");
+    Project project = new ProjectImpl("project");
+    topology.addProject(project);
+
+    Topic topicC = new Topic("topicC", config);
+    project.addTopic(topicC);
+
+    topicManager.updatePlan(topology, plan);
+    plan.run();
+
+    verifyTopicConfiguration(topicC.toString(), config);
+    this.kafkaAdminClient.alterConfigs(Collections.singletonMap(
+        new ConfigResource(ConfigResource.Type.TOPIC, topicC.toString()),
+        new Config(List.of(
+                    new ConfigEntry("compression.type", "lz4"),
+                    new ConfigEntry("confluent.placement.constraints", REPLICA_PLACEMENT_JSON)))));
+    config = buildDummyTopicConfig();
+    config.put("retention.bytes", "104");
+    topicC = new Topic("topicC", config);
+    project.setTopics(Collections.singletonList(topicC));
+    topology.setContext("testTopicConfigUpdate-test");
+    topology.setProjects(Collections.singletonList(project));
+
+    plan.getActions().clear();
+    topicManager.updatePlan(topology, plan);
+    plan.run();
+
+    verifyTopicConfiguration(topicC.toString(), config, List.of("segment.bytes", "compression.type"));
+  }
+
 
   private void verifyTopicConfiguration(String topic, HashMap<String, String> config)
       throws ExecutionException, InterruptedException {
