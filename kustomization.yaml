@@ -1,12 +1,58 @@
+resources:
+  - xxx.yaml
+
 patches:
 - target:
-    group: platform.confluent.io/v1beta1
+    group: platform.confluent.io
+    version: v1beta1
     kind: ConfluentRolebinding
   patch: |-
-    - op: add
-      path: "/spec"
-      value: {
-        "kafkaRestClassRef": "my-cluster"
-      }
-  
-namespace: operator 
+    apiVersion: platform.confluent.io/v1beta1
+    kind: ConfluentRolebinding
+    metadata:
+      name: this-field-is-required-but-ignored
+    spec:
+      kafkaRestClassRef:
+        name: "gke-cluster"
+- target:
+    group: platform.confluent.io
+    version: v1beta1
+    kind: KafkaTopic
+  patch: |-
+    apiVersion: platform.confluent.io/v1beta1
+    kind: KafkaTopic
+    metadata:
+      name: this-field-is-required-but-ignored
+    spec:
+      kafkaRestClassRef:
+        name: "gke-cluster"
+- target:
+    group: platform.confluent.io
+    version: v1beta1
+    kind: Schema
+  patch: |-
+    apiVersion: platform.confluent.io/v1beta1
+    kind: Schema
+    metadata:
+      name: this-field-is-required-but-ignored
+    spec:
+      schemaRegistryRest:
+        endpoint: http://schemaregistry.confluent.svc.cluster.local:8081
+        authentication:
+          type: basic
+          basic:
+            secretRef: gke-creds
+- target:
+    group: platform.confluent.io
+    version: v1beta1
+    kind: Connector
+  patch: |-
+    apiVersion: platform.confluent.io/v1beta1
+    kind: Connector
+    metadata:
+      name: this-field-is-required-but-ignored
+    spec:
+      connectRest:
+        endpoint: http://connect.confluent.svc.cluster.local:8083
+
+namespace: confluent
