@@ -1,0 +1,12 @@
+patches:
+- target:
+    group: platform.confluent.io/v1beta1
+    kind: ConfluentRolebinding
+  patch: |-
+    - op: add
+      path: "/spec"
+      value: {
+        "kafkaRestClassRef": "my-cluster"
+      }
+  
+namespace: operator 
