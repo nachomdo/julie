@@ -1,0 +1,108 @@
+name: Release Builds
+#on:
+#  push:
+#    tags:
+#      - v3*
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  build:
+    name: 'Build with Graal on ${{ matrix.os }}'
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ ubuntu-latest, macOS-latest, windows-latest ]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: 'Download all build artifacts'
+        uses: actions/download-artifact@v2
+
+      - name: 'Check out repository'
+        uses: actions/checkout@v2
+
+      - name: 'Add Developer Command Prompt for Microsoft Visual C++ '
+        if: ${{ runner.os == 'Windows' }}
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          version: '22.2.0'
+          java-version: '17'
+          components: 'native-image'
+          cache: 'maven'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Cache Maven packages'
+        uses: actions/cache@v2.1.7
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+
+      - name: 'Build Native Image'
+        working-directory: .
+        run: mvn -B --file pom.xml -Dagent=false -DskipTests -DskipNativeTests -Pnative package
+
+      - name: 'Upload build artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifacts
+          path: |
+            ./target/*.jar
+            ./target/*.zip
+            ./target/*.tar.gz
+  release:
+    name: "Release and prepare new version"
+    needs: [ build ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Download all build artifacts'
+        uses: actions/download-artifact@v2
+
+      - name: 'Check out repository'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: 'Download all build artifacts'
+        uses: actions/download-artifact@v2
+        with:
+          path: .
+
+      - name: 'Set up Java'
+        uses: actions/setup-java@v2
+        with:
+          java-version: 17
+          distribution: 'zulu'
+          cache: 'maven'
+
+      - name: 'Cache Maven packages'
+        uses: actions/cache@v2.1.7
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+
+      - name: 'Check artifacts'
+        run: ls artifacts
+
+      - name: 'Release with JReleaser'
+        env:
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: .
+        run: mvn -B --file pom.xml -Prelease -DartifactsDir=./artifacts jreleaser:full-release
+
+      - name: JReleaser output
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: jreleaser-logs
+          path: |
+            ./target/jreleaser/trace.log
+            ./target/jreleaser/output.properties
+      

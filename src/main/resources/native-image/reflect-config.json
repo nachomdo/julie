@@ -1,0 +1,4664 @@
+[
+{
+  "name":"[B"}
+,
+{
+  "name":"[C"}
+,
+{
+  "name":"[D"}
+,
+{
+  "name":"[F"}
+,
+{
+  "name":"[I"}
+,
+{
+  "name":"[J"}
+,
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"}
+,
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"}
+,
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"}
+,
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.BeanSerializerModifier;"}
+,
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"}
+,
+{
+  "name":"[Lcom.fasterxml.jackson.databind.type.TypeModifier;"}
+,
+{
+  "name":"[Ljava.lang.Object;"}
+,
+{
+  "name":"[Ljava.lang.String;"}
+,
+{
+  "name":"[Ljava.nio.file.CopyOption;"}
+,
+{
+  "name":"[Ljavax.management.openmbean.CompositeData;"}
+,
+{
+  "name":"[Lorg.apache.logging.log4j.core.Appender;"}
+,
+{
+  "name":"[Lorg.apache.logging.log4j.core.appender.rolling.TriggeringPolicy;"}
+,
+{
+  "name":"[Lorg.apache.logging.log4j.core.appender.rolling.action.Action;"}
+,
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.AppenderRef;"}
+,
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.LoggerConfig;"}
+,
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.Property;"}
+,
+{
+  "name":"[Lorg.eclipse.jetty.server.Handler;"}
+,
+{
+  "name":"[Lorg.eclipse.jetty.servlet.ServletMapping;"}
+,
+{
+  "name":"[S"}
+,
+{
+  "name":"[Z"}
+,
+{
+  "name":"com.fasterxml.jackson.core.JsonParser"}
+,
+{
+  "name":"com.fasterxml.jackson.databind.JsonNode"}
+,
+{
+  "name":"com.fasterxml.jackson.databind.ObjectMapper"}
+,
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.fasterxml.jackson.dataformat.yaml.YAMLFactory"}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.FindStubMappingsByMetadataTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.GetAllScenariosTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.GetGlobalSettingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.GetRecordingStatusTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.ImportStubMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.PatchExtendedSettingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveServeEventTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveServeEventsByRequestPatternTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveServeEventsByStubMetadataTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveStubMappingsByMetadataTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.SetScenarioStateTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.StartRecordingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.StopRecordingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.CreateStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.DeleteStubFileTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.EditStubFileTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.EditStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindNearMissesForRequestPatternTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindNearMissesForRequestTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindNearMissesForUnmatchedTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindUnmatchedRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetAllRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetAllStubFilesTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetAllStubMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetCaCertTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetDocIndexTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetRecordingsIndexTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetRequestCountTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetServedStubTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetSwaggerSpecTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GlobalSettingsUpdateTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldCreateStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldEditStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldRemoveStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldResetRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.RemoveStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetScenariosTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetStubMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetToDefaultMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.RootRedirectTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.RootTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.SaveMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ShutdownServerTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.SnapshotTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.client.BasicCredentials",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.common.Metadata",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.extension.Parameters",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.ChunkedDribbleDelay",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.DelayDistribution",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.Fault",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.HttpHeadersJsonDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.HttpHeadersJsonSerializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.RequestMethod",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"fromString","parameterTypes":["java.lang.String"] }, 
+    {"name":"value","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.http.ResponseDefinition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":["int","java.lang.String","java.lang.String","com.fasterxml.jackson.databind.JsonNode","java.lang.String","java.lang.String","com.github.tomakehurst.wiremock.http.HttpHeaders","com.github.tomakehurst.wiremock.http.HttpHeaders","java.lang.Integer","com.github.tomakehurst.wiremock.http.DelayDistribution","com.github.tomakehurst.wiremock.http.ChunkedDribbleDelay","java.lang.String","java.lang.String","com.github.tomakehurst.wiremock.http.Fault","java.util.List","com.github.tomakehurst.wiremock.extension.Parameters","java.lang.Boolean"] }, 
+    {"name":"getAdditionalProxyRequestHeaders","parameterTypes":[] }, 
+    {"name":"getBase64Body","parameterTypes":[] }, 
+    {"name":"getBody","parameterTypes":[] }, 
+    {"name":"getBodyFileName","parameterTypes":[] }, 
+    {"name":"getChunkedDribbleDelay","parameterTypes":[] }, 
+    {"name":"getDelayDistribution","parameterTypes":[] }, 
+    {"name":"getFault","parameterTypes":[] }, 
+    {"name":"getFixedDelayMilliseconds","parameterTypes":[] }, 
+    {"name":"getHeaders","parameterTypes":[] }, 
+    {"name":"getJsonBody","parameterTypes":[] }, 
+    {"name":"getProxyBaseUrl","parameterTypes":[] }, 
+    {"name":"getProxyUrlPrefixToRemove","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }, 
+    {"name":"getStatusMessage","parameterTypes":[] }, 
+    {"name":"getTransformerParameters","parameterTypes":[] }, 
+    {"name":"getTransformers","parameterTypes":[] }, 
+    {"name":"isFromConfiguredStub","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.jetty94.Jetty94HttpServer",
+  "methods":[{"name":"<init>","parameterTypes":["com.github.tomakehurst.wiremock.core.Options","com.github.tomakehurst.wiremock.http.AdminRequestHandler","com.github.tomakehurst.wiremock.http.StubRequestHandler"] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.jetty94.WritableFileOrClasspathKeyStoreSource",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","char[]"] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.AnythingPattern",
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.ContentPatternDeserialiser",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.CustomMatcherDefinition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.EqualToPattern",
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.MultiValuePattern",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.MultipartValuePattern",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.MultipartValuePattern$MatchingType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.NamedValueMatcher",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.RequestPattern",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":["java.lang.String","com.github.tomakehurst.wiremock.matching.StringValuePattern","java.lang.Integer","java.lang.String","java.lang.String","java.lang.String","java.lang.String","com.github.tomakehurst.wiremock.http.RequestMethod","java.util.Map","java.util.Map","java.util.Map","com.github.tomakehurst.wiremock.client.BasicCredentials","java.util.List","com.github.tomakehurst.wiremock.matching.CustomMatcherDefinition","java.util.List"] }, 
+    {"name":"getBasicAuthCredentials","parameterTypes":[] }, 
+    {"name":"getBodyPatterns","parameterTypes":[] }, 
+    {"name":"getCookies","parameterTypes":[] }, 
+    {"name":"getCustomMatcher","parameterTypes":[] }, 
+    {"name":"getHeaders","parameterTypes":[] }, 
+    {"name":"getHost","parameterTypes":[] }, 
+    {"name":"getMethod","parameterTypes":[] }, 
+    {"name":"getMultipartPatterns","parameterTypes":[] }, 
+    {"name":"getPort","parameterTypes":[] }, 
+    {"name":"getQueryParameters","parameterTypes":[] }, 
+    {"name":"getScheme","parameterTypes":[] }, 
+    {"name":"getUrl","parameterTypes":[] }, 
+    {"name":"getUrlPath","parameterTypes":[] }, 
+    {"name":"getUrlPathPattern","parameterTypes":[] }, 
+    {"name":"getUrlPattern","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.StringValuePatternJsonDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.matching.ValueMatcher",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.github.tomakehurst.wiremock.stubbing.StubMapping",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getId","parameterTypes":[] }, 
+    {"name":"getMetadata","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getNewScenarioState","parameterTypes":[] }, 
+    {"name":"getPostServeActions","parameterTypes":[] }, 
+    {"name":"getPriority","parameterTypes":[] }, 
+    {"name":"getRequest","parameterTypes":[] }, 
+    {"name":"getRequiredScenarioState","parameterTypes":[] }, 
+    {"name":"getResponse","parameterTypes":[] }, 
+    {"name":"getScenarioName","parameterTypes":[] }, 
+    {"name":"getUuid","parameterTypes":[] }, 
+    {"name":"isPersistent","parameterTypes":[] }, 
+    {"name":"setId","parameterTypes":["java.util.UUID"] }, 
+    {"name":"setNewScenarioState","parameterTypes":["java.lang.String"] }, 
+    {"name":"setRequest","parameterTypes":["com.github.tomakehurst.wiremock.matching.RequestPattern"] }, 
+    {"name":"setRequiredScenarioState","parameterTypes":["java.lang.String"] }, 
+    {"name":"setResponse","parameterTypes":["com.github.tomakehurst.wiremock.http.ResponseDefinition"] }, 
+    {"name":"setScenarioName","parameterTypes":["java.lang.String"] }, 
+    {"name":"setUuid","parameterTypes":["java.util.UUID"] }
+  ]}
+,
+{
+  "name":"com.google.api.client.http.GenericUrl",
+  "allDeclaredFields":true}
+,
+{
+  "name":"com.google.api.client.http.HttpHeaders",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.google.api.client.util.GenericData",
+  "allDeclaredFields":true}
+,
+{
+  "name":"com.google.common.collect.Lists",
+  "queriedMethods":[{"name":"newArrayList","parameterTypes":["java.lang.Object[]"] }]}
+,
+{
+  "name":"com.hubspot.jinjava.el.ExtendedSyntaxBuilder",
+  "methods":[{"name":"<init>","parameterTypes":["jinjava.de.odysseus.el.tree.impl.Builder$Feature[]"] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsContainingAllExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsContainingExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsDefinedExpTest",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"evaluate","parameterTypes":["java.lang.Object","com.hubspot.jinjava.interpret.JinjavaInterpreter","java.lang.Object[]"] }
+  ]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsDivisibleByExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsEqualToExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsEvenExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsIterableExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsLowerExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsMappingExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsNoneExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsNumberExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsOddExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsSameAsExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsSequenceExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsStringContainingExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsStringExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsStringStartingWithExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsTruthyExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsUndefinedExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsUpperExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.exptest.IsWithinExpTest",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.AbsFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.AddFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.AttrFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.BatchFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.BetweenTimesFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.BoolFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.CapitalizeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.CenterFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.CountFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.CutFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DAliasedDefaultFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DateTimeFormatFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DatetimeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DefaultFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DictSortFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DifferenceFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DivideFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.DivisibleFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.EAliasedEscapeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.EscapeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.EscapeJinjavaFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.EscapeJsFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.EscapeJsonFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.FileSizeFormatFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.FirstFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.FloatFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.ForceEscapeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.FormatFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.FromJsonFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.GroupByFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.IndentFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.IntFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.IntersectFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.IpAddrFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.Ipv4Filter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.Ipv6Filter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.JoinFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.LastFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.LengthFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.ListFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.LogFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.LowerFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.MapFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.Md5Filter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.MinusTimeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.MultiplyFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.PlusTimeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.PrettyPrintFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.RandomFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.RegexReplaceFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.RejectAttrFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.RejectFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.ReplaceFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.ReverseFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.RootFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.RoundFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SafeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SelectAttrFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SelectFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.ShuffleFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SliceFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SortFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SplitFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.StringFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.StringToTimeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.StripTagsFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SumFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.SymmetricDifferenceFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.TitleFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.ToJsonFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.TrimFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.TruncateFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.TruncateHtmlFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.UnionFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.UniqueFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.UnixTimestampFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.UpperFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.UrlEncodeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.UrlizeFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.WordCountFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.WordWrapFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.filter.XmlAttrFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.fn.Functions",
+  "queriedMethods":[
+    {"name":"dateTimeFormat","parameterTypes":["java.lang.Object","java.lang.String[]"] }, 
+    {"name":"immutableListOf","parameterTypes":["java.lang.Object[]"] }, 
+    {"name":"range","parameterTypes":["java.lang.Object","java.lang.Object[]"] }, 
+    {"name":"renderSuperBlock","parameterTypes":[] }, 
+    {"name":"stringToTime","parameterTypes":["java.lang.String","java.lang.String"] }, 
+    {"name":"today","parameterTypes":["java.lang.String[]"] }, 
+    {"name":"truncate","parameterTypes":["java.lang.Object","java.lang.Object[]"] }, 
+    {"name":"unixtimestamp","parameterTypes":["java.lang.Object[]"] }
+  ]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.fn.TypeFunction",
+  "queriedMethods":[{"name":"type","parameterTypes":["java.lang.Object"] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.AutoEscapeTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.BlockTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.CallTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.CycleTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.DoTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.ElseIfTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.ElseTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.ExtendsTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.ForTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.FromTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.IfTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.IfchangedTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.ImportTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.IncludeTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.MacroTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.PrintTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.RawTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.SetTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.hubspot.jinjava.lib.tag.UnlessTag",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.AccessControlManager",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.AccessControlManagerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"newConsumerACLsCreation","parameterTypes":[] }, 
+    {"name":"newConsumerOptimisedACLsCreation","parameterTypes":[] }, 
+    {"name":"newControlCenterACLCreation","parameterTypes":[] }, 
+    {"name":"newKSqlApplicationCreation","parameterTypes":[] }, 
+    {"name":"newKafkaClusterRBACCreation","parameterTypes":[] }, 
+    {"name":"newKafkaConnectACLsCreation","parameterTypes":[] }, 
+    {"name":"newKafkaConnectClusterRBACCreation","parameterTypes":[] }, 
+    {"name":"newKafkaStreamsAppACLsCreation","parameterTypes":[] }, 
+    {"name":"newProducerACLsCreation","parameterTypes":[] }, 
+    {"name":"newProducerOptimizedACLsCreation","parameterTypes":[] }, 
+    {"name":"newSchemaRegistryACLCreation","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"specialTopicsShouldGenerateTheConfiguredAclsSuccessfully","parameterTypes":[] }, 
+    {"name":"testAclDeleteWithDetailedOptionDisabled","parameterTypes":[] }, 
+    {"name":"testAclDeleteWithDetailedOptionEnabled","parameterTypes":[] }, 
+    {"name":"testConsumerAclsAtTopicLevel","parameterTypes":[] }, 
+    {"name":"testDryRunMode","parameterTypes":[] }, 
+    {"name":"testJulieRoleAclCreation","parameterTypes":[] }, 
+    {"name":"testProducerAclsAtTopicLevel","parameterTypes":[] }, 
+    {"name":"testToProcessOnlySelectedGroupsOrWildcard","parameterTypes":[] }, 
+    {"name":"testToProcessOnlySelectedTopics","parameterTypes":[] }, 
+    {"name":"testToProcessWildcardGroupOnlySelectedServiceAccounts","parameterTypes":[] }, 
+    {"name":"testWrongJulieRoleAclCreation","parameterTypes":[] }, 
+    {"name":"testkStreamAclsCreationWithMissingPrefixGroup","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.AccessControlProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.AccessControlProviderFactoryTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testACLsConfig","parameterTypes":[] }, 
+    {"name":"testRBACConfig","parameterTypes":[] }, 
+    {"name":"testWrongProviderConfig","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.AccessControlWithRBACTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"testPredefinedRoles","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.AclsBindingsBuilderTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testConnectorAclsWithNoClusterCreate","parameterTypes":[] }, 
+    {"name":"testConsumerAclsBuilder","parameterTypes":[] }, 
+    {"name":"testConsumerAclsBuilderWithGroupPrefix","parameterTypes":[] }, 
+    {"name":"testIdempotenceProducerAclsBuilder","parameterTypes":[] }, 
+    {"name":"testProducerAclsBuilder","parameterTypes":[] }, 
+    {"name":"testProducerWithTxIdAclsBuilder","parameterTypes":[] }, 
+    {"name":"testProducerWithTxIdPrefixAclsBuilder","parameterTypes":[] }, 
+    {"name":"testSinkConnectorAcls","parameterTypes":[] }, 
+    {"name":"testSourceConnectorAcls","parameterTypes":[] }, 
+    {"name":"testStreamsAclsBuilder","parameterTypes":[] }, 
+    {"name":"testStreamsWithTxIdAclsBuilder","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.ArtefactManager",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.ArtefactManagerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testClientSelection","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.BackendController",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.BackendControllerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testClusterStateRecovery","parameterTypes":[] }, 
+    {"name":"testClusterStateSize","parameterTypes":[] }, 
+    {"name":"testStoreBindingsAndServiceAccounts","parameterTypes":[] }, 
+    {"name":"testStoreBindingsAndTopics","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.BindingsBuilderProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.CLITest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"testDryRun","parameterTypes":[] }, 
+    {"name":"testParamPassing","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.ClusterIDsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"after","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"shouldAcceptAValidID","parameterTypes":[] }, 
+    {"name":"shouldAnyIdIfTheListIsEmpty","parameterTypes":[] }, 
+    {"name":"shouldRaiseAnExceptionIfAnInvalidClusterIdIsUsed","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.ClusterLevelRoleBuilderTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"beforeClass","parameterTypes":[] }, 
+    {"name":"testControlCenterRun","parameterTypes":[] }, 
+    {"name":"testKafkaConnectRun","parameterTypes":[] }, 
+    {"name":"testKafkaRun","parameterTypes":[] }, 
+    {"name":"testSchemaRegistryRun","parameterTypes":[] }, 
+    {"name":"testWithAllClientIdsForConnect","parameterTypes":[] }, 
+    {"name":"testWithAllClientIdsForSchemaRegistry","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.CommandLineInterface",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.Configuration",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.ConfigurationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"emptyGroupManagedPrefixConfigsShouldRaiseAnError","parameterTypes":[] }, 
+    {"name":"emptySaManagedPrefixConfigsShouldRaiseAnError","parameterTypes":[] }, 
+    {"name":"emptyTopicManagedPrefixConfigsShouldRaiseAnError","parameterTypes":[] }, 
+    {"name":"nonEmptyTopicManagedPrefixConfigsShouldValidateSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldAddStreamsApplicationIdAsInternalTopics","parameterTypes":[] }, 
+    {"name":"shouldAddStreamsProjectPrefixAsInternalTopics","parameterTypes":[] }, 
+    {"name":"shouldFetchAConfigSubsetSuccessfully","parameterTypes":[] }, 
+    {"name":"testIncompatiblePrefixValidConfigFields","parameterTypes":[] }, 
+    {"name":"testJulieOpsInstanceIdGeneration","parameterTypes":[] }, 
+    {"name":"testJulieRolesFetch","parameterTypes":[] }, 
+    {"name":"testKafkaInternalTopicDefaultPrefix","parameterTypes":[] }, 
+    {"name":"testKafkaInternalTopicExtendedPrefix","parameterTypes":[] }, 
+    {"name":"testKsqlServerWithHttps","parameterTypes":[] }, 
+    {"name":"testKsqlServerWithoutScheme","parameterTypes":[] }, 
+    {"name":"testMissingPrefixValidConfigFields","parameterTypes":[] }, 
+    {"name":"testMissingTopicPrefixValidConfigFields","parameterTypes":[] }, 
+    {"name":"testNoSchemaRegistry","parameterTypes":[] }, 
+    {"name":"testPrefixValidConfigFields","parameterTypes":[] }, 
+    {"name":"testRandomJulieOpsInstanceIdGeneration","parameterTypes":[] }, 
+    {"name":"testSchemaRegistryConfigFields","parameterTypes":[] }, 
+    {"name":"testSchemaRegistryValidConfigButNoSchemas","parameterTypes":[] }, 
+    {"name":"testSchemaRegistryValidConfigFields","parameterTypes":[] }, 
+    {"name":"testWithAllRequiredFields","parameterTypes":[] }, 
+    {"name":"testWrongFileJulieRoles","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.ExecutionPlan",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.ExecutionPlanTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"addBindingsTest","parameterTypes":[] }, 
+    {"name":"addTopicsTest","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"deleteBindingsAfterCreateTest","parameterTypes":[] }, 
+    {"name":"deleteTopicsPreviouslyAddedTest","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.ExecutionPlanUpdater",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.JulieOpsAuxiliaryTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"after","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"shouldConfigureAFileBackend","parameterTypes":[] }, 
+    {"name":"shouldConfigureAGCPBackend","parameterTypes":[] }, 
+    {"name":"shouldConfigureAKafkaAuditor","parameterTypes":[] }, 
+    {"name":"shouldConfigureAKafkaBackend","parameterTypes":[] }, 
+    {"name":"shouldConfigureARedisBackend","parameterTypes":[] }, 
+    {"name":"shouldConfigureAS3Backend","parameterTypes":[] }, 
+    {"name":"shouldConfigureAnStdoutAuditor","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.JulieOpsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"builderRunTest","parameterTypes":[] }, 
+    {"name":"builderRunTestAsFromCLI","parameterTypes":[] }, 
+    {"name":"builderRunTestAsFromCLIWithARedisBackend","parameterTypes":[] }, 
+    {"name":"builderRunTestAsFromDirectoryWithSchema","parameterTypes":[] }, 
+    {"name":"closeAdminClientTest","parameterTypes":[] }, 
+    {"name":"verifyProblematicParametersTest","parameterTypes":[] }, 
+    {"name":"verifyProblematicParametersTest2","parameterTypes":[] }, 
+    {"name":"verifyProblematicParametersTestOK","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.JulieRolesTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"after","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testSerdes","parameterTypes":[] }, 
+    {"name":"testTopologyValidationCorrect","parameterTypes":[] }, 
+    {"name":"testTopologyValidationException","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.KSqlArtefactManager",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.KafkaConnectArtefactManager",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.KsqlArtefactManagerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"after","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testArtefactGenerationOrder","parameterTypes":[] }, 
+    {"name":"testArtefactsForDeletionOrder","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.PlanMapSerdesTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testHappyDeserialization","parameterTypes":[] }, 
+    {"name":"testSerialization","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.PrincipalManagerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testDeleteAccountsRequired","parameterTypes":[] }, 
+    {"name":"testFreshGeneration","parameterTypes":[] }, 
+    {"name":"testFreshTopicLevelGeneration","parameterTypes":[] }, 
+    {"name":"testNotRunIfConfigNotExperimental","parameterTypes":[] }, 
+    {"name":"testToProcessOnlySelectedPrincipals","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.PrincipalProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.RbacProviderTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"newConsumerACLsCreation","parameterTypes":[] }, 
+    {"name":"newConsumerOptimisedACLsCreation","parameterTypes":[] }, 
+    {"name":"newControlCenterACLCreation","parameterTypes":[] }, 
+    {"name":"newKafkaConnectACLsCreation","parameterTypes":[] }, 
+    {"name":"newKafkaStreamsAppACLsCreation","parameterTypes":[] }, 
+    {"name":"newProducerACLsCreation","parameterTypes":[] }, 
+    {"name":"newProducerOptimizedACLsCreation","parameterTypes":[] }, 
+    {"name":"newSchemaRegistryACLCreation","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.ResourceFilterTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"resourcesWithNamesMatchesShouldBeFiltered","parameterTypes":[] }, 
+    {"name":"resourcesWithPrincipalAndNameMatchesShouldBeFilter","parameterTypes":[] }, 
+    {"name":"resourcesWithPrincipalMatchesShouldBeFiltered","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.TestTopologyBuilder",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.TopicManager",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.TopicManagerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"dryRunTest","parameterTypes":[] }, 
+    {"name":"newTopicCreationTest","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"shouldManageSpecialTopics","parameterTypes":[] }, 
+    {"name":"testToProcessOnlySelectedTopics","parameterTypes":[] }, 
+    {"name":"topicDeleteTest","parameterTypes":[] }, 
+    {"name":"topicDeleteWithConfiguredInternalTopicsTest","parameterTypes":[] }, 
+    {"name":"topicDeleteWithConfiguredNoDelete","parameterTypes":[] }, 
+    {"name":"topicDeleteWithConfiguredNoDeleteOnlyForTopics","parameterTypes":[] }, 
+    {"name":"topicDeleteWithConfiguredNoDeleteOnlyForTopicsAllDisabled","parameterTypes":[] }, 
+    {"name":"topicPartitionCountUpdateTest","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.TopicTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"buildTopicNameFormatWithCustomPattern","parameterTypes":[] }, 
+    {"name":"buildTopicNameFormatWithCustomSeparator","parameterTypes":[] }, 
+    {"name":"buildTopicNameTest","parameterTypes":[] }, 
+    {"name":"buildTopicNameWithDataTypeTest","parameterTypes":[] }, 
+    {"name":"buildTopicNameWithOtherDataPointsTest","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.TopologyBuilderAdminClientTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"newConsumerACLsCreation","parameterTypes":[] }, 
+    {"name":"newControlCenterACLCreation","parameterTypes":[] }, 
+    {"name":"newKafkaConnectACLsCreation","parameterTypes":[] }, 
+    {"name":"newKafkaStreamsAppACLsCreation","parameterTypes":[] }, 
+    {"name":"newProducerACLsCreation","parameterTypes":[] }, 
+    {"name":"newSchemaRegistryACLCreation","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.TopologyObjectBuilderTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"buildOnlyConnectorTopo","parameterTypes":[] }, 
+    {"name":"buildOutOfMultipleTopos","parameterTypes":[] }, 
+    {"name":"buildOutOfMultipleToposIfNotEnabled","parameterTypes":[] }, 
+    {"name":"buildTopicNameTest","parameterTypes":[] }, 
+    {"name":"buildTopoOnlyPlatform","parameterTypes":[] }, 
+    {"name":"shouldRaiseAnExceptionIfTryingToParseMultipleTopologiesWithSharedProjects","parameterTypes":[] }, 
+    {"name":"testConfigUpdateWhenUsingCustomPlans","parameterTypes":[] }, 
+    {"name":"testInvalidTopology","parameterTypes":[] }, 
+    {"name":"testInvalidTopologyFromDir","parameterTypes":[] }, 
+    {"name":"testTopologyWithInvalidPlan","parameterTypes":[] }, 
+    {"name":"testTopologyWithPlansButWithNoPlansDef","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.TopologySerdesTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"shouldParseSpecialTopics","parameterTypes":[] }, 
+    {"name":"testBackwardsCompatibleDescriptorForConnectors","parameterTypes":[] }, 
+    {"name":"testConnectorArtefactsRetrieval","parameterTypes":[] }, 
+    {"name":"testCoreElementsProcessing","parameterTypes":[] }, 
+    {"name":"testDynamicFirstLevelAttributes","parameterTypes":[] }, 
+    {"name":"testFileWithoutTopicsShouldNotError","parameterTypes":[] }, 
+    {"name":"testInvalidSchemaSerdes","parameterTypes":[] }, 
+    {"name":"testJsonDescriptorFileSerdes","parameterTypes":[] }, 
+    {"name":"testKsqlSerdes","parameterTypes":[] }, 
+    {"name":"testMetadata","parameterTypes":[] }, 
+    {"name":"testOnlyConnectors","parameterTypes":[] }, 
+    {"name":"testOnlyTopics","parameterTypes":[] }, 
+    {"name":"testOtherSerdes","parameterTypes":[] }, 
+    {"name":"testPlatformProcessing","parameterTypes":[] }, 
+    {"name":"testRBACTopics","parameterTypes":[] }, 
+    {"name":"testSchemaSerdes","parameterTypes":[] }, 
+    {"name":"testStreamsApps","parameterTypes":[] }, 
+    {"name":"testStreamsParsingOnlyReadTopicsShouldNotParseAsNull","parameterTypes":[] }, 
+    {"name":"testStreamsParsingOnlyWriteTopicsShoulRaiseAnException","parameterTypes":[] }, 
+    {"name":"testTopicConfigSerdes","parameterTypes":[] }, 
+    {"name":"testTopicNameWithCustomPattern","parameterTypes":[] }, 
+    {"name":"testTopicNameWithCustomSeparator","parameterTypes":[] }, 
+    {"name":"testTopicNameWithUTFCharacters","parameterTypes":[] }, 
+    {"name":"testTopicWithDataType","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQConfigVerify","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQNoFilter","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQWithAllowAndDenyList","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQWithAllowList","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQWithDenyList","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQWithDenyListAndPattern","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQWithDenyListAndPatternFullDeny","parameterTypes":[] }, 
+    {"name":"testTopicsWithDLQWithTopicPattern","parameterTypes":[] }, 
+    {"name":"testTopologySerialisation","parameterTypes":[] }, 
+    {"name":"testTopologyWithNoProjectShouldNotError","parameterTypes":[] }, 
+    {"name":"testTopologyWithNoTeam","parameterTypes":[] }, 
+    {"name":"testTopologyWithRepeatedAndMissingDataType","parameterTypes":[] }, 
+    {"name":"testWithRBACDescriptor","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.TopologyValidationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"regexpValidationShouldFindPatterns","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"testInvalidExecutionBecauseOfNumberOfPartitions","parameterTypes":[] }, 
+    {"name":"testInvalidExecutionWithFailedValidation","parameterTypes":[] }, 
+    {"name":"testPositiveExecutionOnCamelCaseNames","parameterTypes":[] }, 
+    {"name":"testUsingDeprecatedValidationsConfig","parameterTypes":[] }, 
+    {"name":"testUsingUnknownClassName","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.CreateArtefactActionTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.DeleteArtefactActionTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.access.CreateBindingsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.access.builders.KStreamsAclBindingsBuilderTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setUp","parameterTypes":[] }, 
+    {"name":"testStreamWithApplicationId","parameterTypes":[] }, 
+    {"name":"testStreamsWithoutApplicationId","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.accounts.ClearAccountsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.accounts.CreateAccountsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.topics.CreateTopicActionTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.topics.DeleteTopicsActionTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.actions.topics.builders.TopicConfigUpdatePlanBuilderTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldAddNewConfigForRetention","parameterTypes":[] }, 
+    {"name":"shouldAddNewConfigForRetentionWhenAlreadySetByBroker","parameterTypes":[] }, 
+    {"name":"shouldDeleteConfigForRetention","parameterTypes":[] }, 
+    {"name":"shouldNotChangeConfigWhenNoConfig","parameterTypes":[] }, 
+    {"name":"shouldNotDeleteConfigForRetentionWhenSetByBroker","parameterTypes":[] }, 
+    {"name":"shouldNotUpdatePartitionCountWhenLowerThanCurrent","parameterTypes":[] }, 
+    {"name":"shouldUpdateConfigForRetention","parameterTypes":[] }, 
+    {"name":"shouldUpdatePartitionCountWhenHigherThanCurrent","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.JulieHttpClientTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"shouldResponseFastToNonRetryErrorCodes","parameterTypes":[] }, 
+    {"name":"shouldRunTheRetryFlowForRetrievableErrorCodes","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.adminclient.TopologyBuilderAdminClient",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.CCloudApi",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.CCloudApiTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"listServiceAccountsShouldAcceptPage","parameterTypes":[] }, 
+    {"name":"testAclCreateMethod","parameterTypes":[] }, 
+    {"name":"testAclDeleteMethod","parameterTypes":[] }, 
+    {"name":"testCreateServiceAccount","parameterTypes":[] }, 
+    {"name":"testDeleteServiceAccount","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.requests.KafkaAclRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getHost","parameterTypes":[] }, 
+    {"name":"getOperation","parameterTypes":[] }, 
+    {"name":"getPattern_type","parameterTypes":[] }, 
+    {"name":"getPermission","parameterTypes":[] }, 
+    {"name":"getPrincipal","parameterTypes":[] }, 
+    {"name":"getResource_name","parameterTypes":[] }, 
+    {"name":"getResource_type","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.requests.ServiceAccountRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getDescription","parameterTypes":[] }, 
+    {"name":"getDisplay_name","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.response.CCloudMetadataListResponse",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setFirst","parameterTypes":["java.lang.String"] }, 
+    {"name":"setLast","parameterTypes":["java.lang.String"] }, 
+    {"name":"setNext","parameterTypes":["java.lang.String"] }, 
+    {"name":"setPrev","parameterTypes":["java.lang.String"] }, 
+    {"name":"setTotal_size","parameterTypes":["int"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.response.ListServiceAccountResponse",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setApi_version","parameterTypes":["java.lang.String"] }, 
+    {"name":"setData","parameterTypes":["java.util.List"] }, 
+    {"name":"setKind","parameterTypes":["java.lang.String"] }, 
+    {"name":"setMetadata","parameterTypes":["com.purbon.kafka.topology.api.ccloud.response.CCloudMetadataListResponse"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.response.ResourceMetadataResponse",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setCreated_at","parameterTypes":["java.lang.String"] }, 
+    {"name":"setDeleted_at","parameterTypes":["java.lang.String"] }, 
+    {"name":"setResource_name","parameterTypes":["java.lang.String"] }, 
+    {"name":"setSelf","parameterTypes":["java.lang.String"] }, 
+    {"name":"setUpdated_at","parameterTypes":["java.lang.String"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ccloud.response.ServiceAccountResponse",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setApi_version","parameterTypes":["java.lang.String"] }, 
+    {"name":"setDescription","parameterTypes":["java.lang.String"] }, 
+    {"name":"setDisplay_name","parameterTypes":["java.lang.String"] }, 
+    {"name":"setId","parameterTypes":["java.lang.String"] }, 
+    {"name":"setKind","parameterTypes":["java.lang.String"] }, 
+    {"name":"setMetadata","parameterTypes":["com.purbon.kafka.topology.api.ccloud.response.ResourceMetadataResponse"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ksql.KsqlApiClient",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.api.ksql.KsqlClientConfigTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testDefaults","parameterTypes":[] }, 
+    {"name":"testServerRequired","parameterTypes":[] }, 
+    {"name":"testUrlConversion","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.api.mds.MDSApiClient",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.api.mds.MDSApiClientBuilder",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.api.mds.MDSApiClientTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testBindConnectRole","parameterTypes":[] }, 
+    {"name":"testBindSubjectRole","parameterTypes":[] }, 
+    {"name":"testBindSubjectRoleWithoutResourceType","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.audit.Appender",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.audit.AuditorTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldComposeDetailedViewOfProperties","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.audit.KafkaAppender",
+  "methods":[{"name":"<init>","parameterTypes":["com.purbon.kafka.topology.Configuration"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.audit.StdoutAppender",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.Backend",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.BackendState",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getAccounts","parameterTypes":[] }, 
+    {"name":"getBindings","parameterTypes":[] }, 
+    {"name":"getConnectors","parameterTypes":[] }, 
+    {"name":"getKSqlStreams","parameterTypes":[] }, 
+    {"name":"getKSqlTables","parameterTypes":[] }, 
+    {"name":"getTopics","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.FileBackend",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.FileBackendTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"after","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"shouldHandlePrincipalWithSpace","parameterTypes":[] }, 
+    {"name":"shouldHandlePrincipalWithUri","parameterTypes":[] }, 
+    {"name":"shouldParseOldStyleStateFileSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldParseStateFileSuccessfully","parameterTypes":[] }, 
+    {"name":"testBindingSerdes","parameterTypes":[] }, 
+    {"name":"testStoreAndLoadBindingsAndTopics","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.GCPBackend",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.KafkaBackend",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.RedisBackend",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.purbon.kafka.topology.Configuration"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.RedisBackendTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"testDataLoading","parameterTypes":[] }, 
+    {"name":"testSaveBindings","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.S3Backend",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.backend.kafka.JsonDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.clients.ArtefactClient",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.clients.JulieHttpClient",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.integration.MDSBaseTest",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.integration.containerutils.TestConsumer",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.integration.containerutils.TestProducer",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.integration.containerutils.TestProducerConsumerQuota",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.integration.containerutils.TestStreams",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Artefact",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getPath","parameterTypes":[] }, 
+    {"name":"getServerLabel","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Artefacts",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.model.DynamicUser",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getTopics","parameterTypes":[] }, 
+    {"name":"setTopics","parameterTypes":["java.util.Map"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Impl.ProjectImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getConnectorArtefacts","parameterTypes":[] }, 
+    {"name":"getConnectors","parameterTypes":[] }, 
+    {"name":"getConsumers","parameterTypes":[] }, 
+    {"name":"getKSqls","parameterTypes":[] }, 
+    {"name":"getKsqlArtefacts","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getOthers","parameterTypes":[] }, 
+    {"name":"getProducers","parameterTypes":[] }, 
+    {"name":"getRbacRawRoles","parameterTypes":[] }, 
+    {"name":"getSchemas","parameterTypes":[] }, 
+    {"name":"getStreams","parameterTypes":[] }, 
+    {"name":"getTopics","parameterTypes":[] }, 
+    {"name":"getZookeepers","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Impl.TopologyImpl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getContext","parameterTypes":[] }, 
+    {"name":"getPlatform","parameterTypes":[] }, 
+    {"name":"getProjects","parameterTypes":[] }, 
+    {"name":"getSpecialTopics","parameterTypes":[] }, 
+    {"name":"isEmpty","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.JulieRole",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.util.List"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.JulieRoleAcl",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.JulieRoles",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.util.List"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Plan",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getAlias","parameterTypes":[] }, 
+    {"name":"getConfig","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.PlanMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Platform",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getControlCenter","parameterTypes":[] }, 
+    {"name":"getKafka","parameterTypes":[] }, 
+    {"name":"getKafkaConnect","parameterTypes":[] }, 
+    {"name":"getKsqlServer","parameterTypes":[] }, 
+    {"name":"getSchemaRegistry","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Project",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.model.SubjectNameStrategy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Topic",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getConfig","parameterTypes":[] }, 
+    {"name":"getConsumers","parameterTypes":[] }, 
+    {"name":"getDataType","parameterTypes":[] }, 
+    {"name":"getDlqPrefix","parameterTypes":[] }, 
+    {"name":"getMetadata","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getPartitionCount","parameterTypes":[] }, 
+    {"name":"getPlan","parameterTypes":[] }, 
+    {"name":"getProducers","parameterTypes":[] }, 
+    {"name":"getReplicationFactor","parameterTypes":[] }, 
+    {"name":"getSchemas","parameterTypes":[] }, 
+    {"name":"getSubjectNameStrategy","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.Topology",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.model.User",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getMetadata","parameterTypes":[] }, 
+    {"name":"getPrincipal","parameterTypes":[] }, 
+    {"name":"setMetadata","parameterTypes":["java.util.Map"] }, 
+    {"name":"setPrincipal","parameterTypes":["java.lang.String"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KConnectArtefacts",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getConnectors","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KafkaConnectArtefact",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KsqlArtefact",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KsqlArtefacts",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getStreams","parameterTypes":[] }, 
+    {"name":"getTables","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KsqlStreamArtefact",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KsqlStreamArtefactTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testLabelNotPrintedWhenMissing","parameterTypes":[] }, 
+    {"name":"testLabelPrintedWhenPresent","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KsqlTableArtefact",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.artefact.KsqlTableArtefactTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testLabelNotPrintedWhenMissing","parameterTypes":[] }, 
+    {"name":"testLabelPrintedWhenPresent","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.cluster.ServiceAccount",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getDescription","parameterTypes":[] }, 
+    {"name":"getId","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getResourceId","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.Connector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getCluster_id","parameterTypes":[] }, 
+    {"name":"getConfigs_topic","parameterTypes":[] }, 
+    {"name":"getConnectors","parameterTypes":[] }, 
+    {"name":"getGroup","parameterTypes":[] }, 
+    {"name":"getOffset_topic","parameterTypes":[] }, 
+    {"name":"getStatus_topic","parameterTypes":[] }, 
+    {"name":"setCluster_id","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setConfigs_topic","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setConnectors","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setGroup","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setOffset_topic","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setStatus_topic","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.Consumer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getGroup","parameterTypes":[] }, 
+    {"name":"setGroup","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.KSqlApp",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.KStream",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getApplicationId","parameterTypes":[] }, 
+    {"name":"getExactlyOnce","parameterTypes":[] }, 
+    {"name":"setApplicationId","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setExactlyOnce","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.Other",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setConnector","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setGroup","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setSubject","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setTopic","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.PrincipalTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"failsForInvalidPrincipalTypeString","parameterTypes":[] }, 
+    {"name":"failsForMalformedPrincipalString","parameterTypes":[] }, 
+    {"name":"generatesMappedPrincipal","parameterTypes":[] }, 
+    {"name":"readsGroupPrincipal","parameterTypes":[] }, 
+    {"name":"readsUserPrincipal","parameterTypes":[] }, 
+    {"name":"roundTripFromGroupPrincipalString","parameterTypes":[] }, 
+    {"name":"roundTripFromUserPrincipalString","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.Producer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getIdempotence","parameterTypes":[] }, 
+    {"name":"getTransactionId","parameterTypes":[] }, 
+    {"name":"setIdempotence","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setTransactionId","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.Schemas",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setPrefixed","parameterTypes":["boolean"] }, 
+    {"name":"setRole","parameterTypes":["java.lang.String"] }, 
+    {"name":"setSubjects","parameterTypes":["java.util.List"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.ControlCenter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getInstances","parameterTypes":[] }, 
+    {"name":"setInstances","parameterTypes":["java.util.List"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.ControlCenterInstance",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setAppId","parameterTypes":["java.lang.String"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.Kafka",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getInstances","parameterTypes":[] }, 
+    {"name":"getRbac","parameterTypes":[] }, 
+    {"name":"setInstances","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setRbac","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.KafkaConnect",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getRbac","parameterTypes":[] }, 
+    {"name":"setRbac","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.KsqlServer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getInstances","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.KsqlServerInstance",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.SchemaRegistry",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getInstances","parameterTypes":[] }, 
+    {"name":"getRbac","parameterTypes":[] }, 
+    {"name":"isEmpty","parameterTypes":[] }, 
+    {"name":"setInstances","parameterTypes":["java.util.List"] }, 
+    {"name":"setRbac","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.model.users.platform.SchemaRegistryInstance",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setGroup","parameterTypes":["java.util.Optional"] }, 
+    {"name":"setTopic","parameterTypes":["java.util.Optional"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.roles.RBACProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.purbon.kafka.topology.api.mds.MDSApiClient"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.roles.SimpleAclsProvider",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.purbon.kafka.topology.api.adminclient.TopologyBuilderAdminClient"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.roles.TopologyAclBinding",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getHost","parameterTypes":[] }, 
+    {"name":"getOperation","parameterTypes":[] }, 
+    {"name":"getPattern","parameterTypes":[] }, 
+    {"name":"getPrincipal","parameterTypes":[] }, 
+    {"name":"getResourceName","parameterTypes":[] }, 
+    {"name":"getResourceType","parameterTypes":[] }, 
+    {"name":"getScope","parameterTypes":[] }, 
+    {"name":"setHost","parameterTypes":["java.lang.String"] }, 
+    {"name":"setOperation","parameterTypes":["java.lang.String"] }, 
+    {"name":"setPattern","parameterTypes":["java.lang.String"] }, 
+    {"name":"setPrincipal","parameterTypes":["java.lang.String"] }, 
+    {"name":"setResourceType","parameterTypes":["java.lang.String"] }, 
+    {"name":"setScope","parameterTypes":["com.purbon.kafka.topology.api.mds.RequestScope"] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.roles.acls.AclsBindingsBuilder",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.roles.rbac.ClusterLevelRoleBuilder",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.roles.rbac.RBACBindingsBuilder",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.schemas.SchemaRegistryManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"com.purbon.kafka.topology.schemas.SchemaRegistryManagerTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"shouldDetectIncompatibleAvroSchema","parameterTypes":[] }, 
+    {"name":"shouldDetectIncompatibleJsonSchema","parameterTypes":[] }, 
+    {"name":"shouldDetectIncompatibleProtobufSchema","parameterTypes":[] }, 
+    {"name":"shouldFailForTheUnknownType","parameterTypes":[] }, 
+    {"name":"shouldRegisterAndUpdateAvroSchema","parameterTypes":[] }, 
+    {"name":"shouldRegisterAndUpdateJsonSchema","parameterTypes":[] }, 
+    {"name":"shouldRegisterAndUpdateProtobufSchema","parameterTypes":[] }, 
+    {"name":"shouldRegisterSchemasWithARelativePath","parameterTypes":[] }, 
+    {"name":"shouldRegisterSchemasWithAnAbsolutePath","parameterTypes":[] }, 
+    {"name":"shouldRegisterTheSchema","parameterTypes":[] }, 
+    {"name":"shouldRegisterTheSchemaWithDefaultAvroType","parameterTypes":[] }, 
+    {"name":"shouldRegisterTheSchemawithCompatibility","parameterTypes":[] }, 
+    {"name":"shouldThrowAnExceptionWithFailedFilePath","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.serdes.RequestScopeDeser",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.serdes.RequestScopeSerde",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.utils.BasicAuthTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testToHttpAuthToken","parameterTypes":[] }, 
+    {"name":"testValuesRequired","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.utils.CCloudUtilsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"after","parameterTypes":[] }, 
+    {"name":"before","parameterTypes":[] }, 
+    {"name":"translationShouldBeAbortedIfErrors","parameterTypes":[] }, 
+    {"name":"translationShouldNotRaiseErrorWhenNotUsingUserPrefix","parameterTypes":[] }, 
+    {"name":"translationShouldNotRaiseErrors","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.utils.JSONUtilsTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setup","parameterTypes":[] }, 
+    {"name":"testToArrayDeserialisation","parameterTypes":[] }, 
+    {"name":"testToMapDeserialization","parameterTypes":[] }, 
+    {"name":"testToStringSerialization","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.utils.TestUtils",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.ConfigurationKeyValidationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testKoConfigValues","parameterTypes":[] }, 
+    {"name":"testOkConfigValues","parameterTypes":[] }, 
+    {"name":"testPartitionsAndReplicationConfigValues","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.MinInSyncReplicasValidationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldCheckKoValuesSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldCheckMinimalValuesSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldCheckMissingMinInSyncValuesSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldCheckOkValuesSuccessfully","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.PartitionNumberValidation",
+  "methods":[{"name":"<init>","parameterTypes":["com.purbon.kafka.topology.Configuration"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.PartitionNumberValidationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingEq","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingEqSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGt","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGtSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGte","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGteSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLt","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLtSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLte","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLteSuccessfully","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.ReplicationFactorValidationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingEq","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingEqSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGt","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGtSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGte","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingGteSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLt","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLtSuccessfully","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLte","parameterTypes":[] }, 
+    {"name":"shouldVerifyDifferentValuesWhenUsingLteSuccessfully","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.TopicNameRegexValidation",
+  "methods":[{"name":"<init>","parameterTypes":["com.purbon.kafka.topology.Configuration"] }]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topic.TopicNameRegexValidationTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testEmptyParam","parameterTypes":[] }, 
+    {"name":"testKoConfigValues","parameterTypes":[] }, 
+    {"name":"testOkConfigValues","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.purbon.kafka.topology.validation.topology.CamelCaseNameFormatValidation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.ARCFOURCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.DESCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.DESedeCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.DHParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.management.GarbageCollectorMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"com.sun.management.GcInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"com.sun.management.HotSpotDiagnosticMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"com.sun.management.ThreadMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"com.sun.management.UnixOperatingSystemMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"com.sun.management.VMOption",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"com.sun.management.internal.GarbageCollectorExtImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"com.sun.management.internal.HotSpotDiagnostic",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"com.sun.management.internal.HotSpotThreadImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"com.sun.management.internal.OperatingSystemImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"java.beans.PropertyVetoException"}
+,
+{
+  "name":"java.io.Closeable",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.io.File",
+  "queriedMethods":[{"name":"toPath","parameterTypes":[] }]}
+,
+{
+  "name":"java.io.FilterOutputStream",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.io.Flushable",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.io.ObjectInputStream",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.io.OutputStream",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.io.PrintStream",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.io.Serializable",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.Appendable",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.lang.AutoCloseable",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Class",
+  "methods":[
+    {"name":"getAnnotatedInterfaces","parameterTypes":[] }, 
+    {"name":"getAnnotatedSuperclass","parameterTypes":[] }, 
+    {"name":"getModule","parameterTypes":[] }, 
+    {"name":"getNestHost","parameterTypes":[] }, 
+    {"name":"getNestMembers","parameterTypes":[] }, 
+    {"name":"getRecordComponents","parameterTypes":[] }, 
+    {"name":"isRecord","parameterTypes":[] }
+  ],
+  "queriedMethods":[
+    {"name":"forName","parameterTypes":["java.lang.String"] }, 
+    {"name":"getDeclaredMethod","parameterTypes":["java.lang.String","java.lang.Class[]"] }, 
+    {"name":"getMethod","parameterTypes":["java.lang.String","java.lang.Class[]"] }, 
+    {"name":"isNestmateOf","parameterTypes":["java.lang.Class"] }
+  ]}
+,
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[{"name":"setDefaultAssertionStatus","parameterTypes":["boolean"] }]}
+,
+{
+  "name":"java.lang.Cloneable",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.Comparable",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.Deprecated",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"forRemoval","parameterTypes":[] }, 
+    {"name":"since","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.lang.Double",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.Module",
+  "methods":[
+    {"name":"canRead","parameterTypes":["java.lang.Module"] }, 
+    {"name":"getLayer","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"isExported","parameterTypes":["java.lang.String"] }, 
+    {"name":"isOpen","parameterTypes":["java.lang.String","java.lang.Module"] }
+  ],
+  "queriedMethods":[
+    {"name":"addExports","parameterTypes":["java.lang.String","java.lang.Module"] }, 
+    {"name":"addOpens","parameterTypes":["java.lang.String","java.lang.Module"] }, 
+    {"name":"addReads","parameterTypes":["java.lang.Module"] }, 
+    {"name":"getClassLoader","parameterTypes":[] }, 
+    {"name":"getResourceAsStream","parameterTypes":["java.lang.String"] }, 
+    {"name":"isExported","parameterTypes":["java.lang.String","java.lang.Module"] }, 
+    {"name":"isNamed","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.lang.ModuleLayer",
+  "methods":[{"name":"configuration","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.Runtime",
+  "methods":[{"name":"version","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.Runtime$Version",
+  "methods":[{"name":"major","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.Short",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.lang.StackTraceElement",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.String"}
+,
+{
+  "name":"java.lang.Thread",
+  "methods":[{"name":"getContextClassLoader","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.constant.Constable",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.instrument.Instrumentation",
+  "queriedMethods":[
+    {"name":"isModifiableModule","parameterTypes":["java.lang.Module"] }, 
+    {"name":"redefineModule","parameterTypes":["java.lang.Module","java.util.Set","java.util.Map","java.util.Map","java.util.Set","java.util.Map"] }
+  ]}
+,
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[
+    {"name":"lookup","parameterTypes":[] }, 
+    {"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }
+  ]}
+,
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "methods":[
+    {"name":"defineClass","parameterTypes":["byte[]"] }, 
+    {"name":"lookupClass","parameterTypes":[] }, 
+    {"name":"lookupModes","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.lang.management.BufferPoolMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.ClassLoadingMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.CompilationMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.LockInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.management.ManagementPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.management.MemoryMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.MemoryManagerMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.MemoryPoolMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.MemoryUsage",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.MonitorInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.PlatformLoggingMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getUptime","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.management.ThreadInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.module.Configuration",
+  "methods":[{"name":"findModule","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"java.lang.module.ModuleReference",
+  "methods":[{"name":"location","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.module.ResolvedModule",
+  "methods":[{"name":"reference","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.AccessibleObject",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.lang.reflect.AnnotatedArrayType",
+  "methods":[{"name":"getAnnotatedGenericComponentType","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.AnnotatedElement",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.lang.reflect.AnnotatedParameterizedType",
+  "methods":[{"name":"getAnnotatedActualTypeArguments","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.AnnotatedType",
+  "methods":[
+    {"name":"getAnnotatedOwnerType","parameterTypes":[] }, 
+    {"name":"getType","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.lang.reflect.AnnotatedTypeVariable",
+  "queriedMethods":[{"name":"getAnnotatedBounds","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.AnnotatedWildcardType",
+  "methods":[{"name":"getAnnotatedUpperBounds","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.Executable",
+  "methods":[
+    {"name":"getAnnotatedExceptionTypes","parameterTypes":[] }, 
+    {"name":"getAnnotatedParameterTypes","parameterTypes":[] }, 
+    {"name":"getAnnotatedReceiverType","parameterTypes":[] }, 
+    {"name":"getParameterCount","parameterTypes":[] }, 
+    {"name":"getParameters","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.lang.reflect.Field",
+  "queriedMethods":[{"name":"getAnnotatedType","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.Method",
+  "methods":[{"name":"getAnnotatedReturnType","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.Parameter",
+  "methods":[
+    {"name":"getModifiers","parameterTypes":[] }, 
+    {"name":"isNamePresent","parameterTypes":[] }
+  ],
+  "queriedMethods":[{"name":"getName","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.reflect.RecordComponent",
+  "queriedMethods":[
+    {"name":"getAccessor","parameterTypes":[] }, 
+    {"name":"getAnnotatedType","parameterTypes":[] }, 
+    {"name":"getDeclaringRecord","parameterTypes":[] }, 
+    {"name":"getGenericSignature","parameterTypes":[] }, 
+    {"name":"getGenericType","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getType","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.lang.reflect.TypeVariable",
+  "methods":[{"name":"getAnnotatedBounds","parameterTypes":[] }]}
+,
+{
+  "name":"java.math.BigDecimal"}
+,
+{
+  "name":"java.math.BigInteger"}
+,
+{
+  "name":"java.nio.file.CopyOption"}
+,
+{
+  "name":"java.nio.file.Files",
+  "queriedMethods":[{"name":"move","parameterTypes":["java.nio.file.Path","java.nio.file.Path","java.nio.file.CopyOption[]"] }]}
+,
+{
+  "name":"java.nio.file.Path"}
+,
+{
+  "name":"java.nio.file.StandardCopyOption"}
+,
+{
+  "name":"java.security.AlgorithmParametersSpi"}
+,
+{
+  "name":"java.security.KeyStoreSpi"}
+,
+{
+  "name":"java.security.SecureRandomParameters"}
+,
+{
+  "name":"java.sql.Date"}
+,
+{
+  "name":"java.sql.Timestamp"}
+,
+{
+  "name":"java.util.AbstractMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.util.Date"}
+,
+{
+  "name":"java.util.HashMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"entrySet","parameterTypes":[] }, 
+    {"name":"keySet","parameterTypes":[] }, 
+    {"name":"loadFactor","parameterTypes":[] }, 
+    {"name":"size","parameterTypes":[] }, 
+    {"name":"values","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"java.util.HashSet",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"java.util.LinkedHashMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.util.List"}
+,
+{
+  "name":"java.util.Map",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.util.Optional",
+  "methods":[{"name":"empty","parameterTypes":[] }]}
+,
+{
+  "name":"java.util.Properties"}
+,
+{
+  "name":"java.util.PropertyPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"java.util.UUID",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.util.concurrent.Future",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"java.util.logging.LogManager",
+  "methods":[{"name":"getLoggingMXBean","parameterTypes":[] }]}
+,
+{
+  "name":"java.util.logging.LoggingMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"javax.management.MBeanOperationInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"javax.management.MBeanServerBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"javax.management.NotificationBroadcasterSupport",
+  "queriedMethods":[{"name":"getNotificationInfo","parameterTypes":[] }]}
+,
+{
+  "name":"javax.management.ObjectName"}
+,
+{
+  "name":"javax.management.openmbean.CompositeData"}
+,
+{
+  "name":"javax.management.openmbean.OpenMBeanOperationInfoSupport"}
+,
+{
+  "name":"javax.management.openmbean.TabularData"}
+,
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "queriedMethods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]}
+,
+{
+  "name":"javax.servlet.Servlet"}
+,
+{
+  "name":"jdk.management.jfr.ConfigurationInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"jdk.management.jfr.EventTypeInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBeanImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"jdk.management.jfr.RecordingInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"jdk.management.jfr.SettingDescriptorInfo",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"jinjava.de.odysseus.el.ExpressionFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"jinjava.de.odysseus.el.tree.impl.Scanner",
+  "fields":[
+    {"name":"position"}, 
+    {"name":"token"}
+  ],
+  "methods":[{"name":"addKeyToken","parameterTypes":["jinjava.de.odysseus.el.tree.impl.Scanner$Token"] }]}
+,
+{
+  "name":"junit.framework.Test"}
+,
+{
+  "name":"kotlin.Unit"}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.AllArguments",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"includeSelf","parameterTypes":[] }, 
+    {"name":"value","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Argument",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"bindingMechanic","parameterTypes":[] }, 
+    {"name":"value","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Default",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.DefaultCall",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.DefaultMethod",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.FieldValue",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"declaringType","parameterTypes":[] }, 
+    {"name":"value","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Origin",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"cache","parameterTypes":[] }, 
+    {"name":"privileged","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.StubValue",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.Super",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.SuperCall",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"fallbackToDefault","parameterTypes":[] }, 
+    {"name":"nullIfImpossible","parameterTypes":[] }, 
+    {"name":"serializableProxy","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"net.bytebuddy.implementation.bind.annotation.This",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"optional","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.commons.logging.LogFactory"}
+,
+{
+  "name":"org.apache.commons.logging.impl.Log4JLogger",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"org.apache.commons.logging.impl.LogFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.commons.logging.impl.WeakHashtable",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.kafka.clients.admin.Admin",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.apache.kafka.clients.admin.AdminClient",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.apache.kafka.clients.admin.CreateAclsResult",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.apache.kafka.common.KafkaFuture",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.apache.kafka.common.annotation.InterfaceStability$Evolving",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.apache.kafka.common.config.TopicConfig",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.kafka.common.security.authenticator.AbstractLogin$DefaultLoginCallbackHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.kafka.common.security.authenticator.DefaultLogin",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.kafka.common.security.plain.PlainLoginModule",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.kafka.common.serialization.StringDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.kafka.common.utils.AppInfoParser$AppInfo",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"org.apache.kafka.common.utils.AppInfoParser$AppInfoMBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.log4j.Category"}
+,
+{
+  "name":"org.apache.log4j.CategoryKey"}
+,
+{
+  "name":"org.apache.log4j.Level",
+  "fields":[{"name":"TRACE"}]}
+,
+{
+  "name":"org.apache.log4j.Logger"}
+,
+{
+  "name":"org.apache.log4j.Priority"}
+,
+{
+  "name":"org.apache.log4j.helpers.Loader"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.AbstractAppender$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.AppenderSet"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.AsyncAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.CountingNoOpAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.FailoverAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.FailoversPlugin"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.FileAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.HttpAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.MemoryMappedFileAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.NullAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.OutputStreamAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.RandomAccessFileAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.ScriptAppenderSelector"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.SmtpAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.SocketAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.SyslogAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.WriterAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.db.ColumnMapping"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.DriverManagerConnectionSource"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.JmsAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.jeromq.JeroMqAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.kafka.KafkaAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.nosql.NoSqlAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.LoggerNameLevelRewritePolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.RewriteAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createPolicy","parameterTypes":["org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DirectWriteRolloverStrategy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.NoOpTriggeringPolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createPolicy","parameterTypes":["java.lang.String"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.DeleteAction"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAll"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAny"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfFileName"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfLastModified"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfNot"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.PathSortByModificationTime"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.PosixViewAttributeAction"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.ScriptCondition"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.IdlePurgePolicy"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Route"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Routes"}
+,
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.RoutingAppender"}
+,
+{
+  "name":"org.apache.logging.log4j.core.async.ArrayBlockingQueueFactory"}
+,
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncLoggerConfig"}
+,
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger"}
+,
+{
+  "name":"org.apache.logging.log4j.core.async.DisruptorBlockingQueueFactory"}
+,
+{
+  "name":"org.apache.logging.log4j.core.async.JCToolsBlockingQueueFactory"}
+,
+{
+  "name":"org.apache.logging.log4j.core.async.LinkedTransferQueueFactory"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.AppenderRef",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppenderRef","parameterTypes":["java.lang.String","org.apache.logging.log4j.Level","org.apache.logging.log4j.core.Filter"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.AppendersPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppenders","parameterTypes":["org.apache.logging.log4j.core.Appender[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.CustomLevelConfig"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.CustomLevels"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.DefaultAdvertiser"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.HttpWatcher"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createLogger","parameterTypes":["boolean","org.apache.logging.log4j.Level","java.lang.String","java.lang.String","org.apache.logging.log4j.core.config.AppenderRef[]","org.apache.logging.log4j.core.config.Property[]","org.apache.logging.log4j.core.config.Configuration","org.apache.logging.log4j.core.Filter"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$RootLogger",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createLogger","parameterTypes":["java.lang.String","org.apache.logging.log4j.Level","java.lang.String","org.apache.logging.log4j.core.config.AppenderRef[]","org.apache.logging.log4j.core.config.Property[]","org.apache.logging.log4j.core.config.Configuration","org.apache.logging.log4j.core.Filter"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.LoggersPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createLoggers","parameterTypes":["org.apache.logging.log4j.core.config.LoggerConfig[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.PropertiesPlugin"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.Property"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.ScriptsPlugin"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.ClassArbiter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.DefaultArbiter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.ScriptArbiter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.SelectArbiter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.SystemPropertyArbiter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.json.JsonConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigDecimalConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigIntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BooleanConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharacterConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharsetConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ClassConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CronExpressionConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DoubleConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DurationConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FileConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FloatConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$InetAddressConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$IntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LongConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PathConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PatternConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$SecurityProviderConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ShortConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$StringConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UriConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UrlConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UuidConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.properties.PropertiesConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.AbstractFilterable$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.BurstFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.CompositeFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.DenyAllFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.DynamicThresholdFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelMatchFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelRangeFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.MapFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.MarkerFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.NoMarkerFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.RegexFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.ScriptFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.StringMatchFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.StructuredDataFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.ThreadContextMapFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.ThresholdFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.filter.TimeFilter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.impl.Log4jContextFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.AppenderAdmin",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.AppenderAdminMBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.ContextSelectorAdmin",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.ContextSelectorAdminMBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerConfigAdminMBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerContextAdmin",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerContextAdminMBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.StatusLoggerAdmin",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.CsvLogEventLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.CsvParameterLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.GelfLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.HtmlLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.JsonLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.LevelPatternSelector"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.LoggerFields"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.MarkerPatternSelector"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.MessageLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout$Builder",
+  "allDeclaredFields":true}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternMatch"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.Rfc5424Layout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.ScriptPatternSelector"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.SerializedLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.SyslogLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.XmlLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.layout.YamlLayout"}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.ContextMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.DateLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.EnvironmentLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.EventLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.JavaLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.JndiLookup"}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.Log4jLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.LowerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.MainMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.MapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.MarkerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.ResourceBundleLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.StructuredDataLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.SystemPropertiesLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.lookup.UpperLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.MulticastDnsAdvertiser"}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.SocketAddress"}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.SocketOptions"}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.SocketPerformancePreferences"}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration"}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.SslConfiguration"}
+,
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Black"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Blue"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Cyan"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Green"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Magenta"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Red"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$White"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Yellow"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ClassNamePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.DatePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.EncodingPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.EndOfBatchPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.EqualsIgnoreCaseReplacementConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.EqualsReplacementConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ExtendedThrowablePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileDatePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileLocationPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.FullLocationPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.HighlightConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.IntegerPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.LevelPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineLocationPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerFqcnPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MapPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MarkerPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MarkerSimpleNamePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MaxLengthConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MdcPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MessagePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["org.apache.logging.log4j.core.config.Configuration","java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.MethodLocationPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.NanoTimePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.NdcPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ProcessIdPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.RegexReplacement"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.RegexReplacementConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.RelativeTimePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.RepeatPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.RootThrowablePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.SequenceNumberPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.StyleConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadIdPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadNamePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadPriorityPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThrowablePatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.UuidPatternConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.pattern.VariablesNotEmptyReplacementConverter"}
+,
+{
+  "name":"org.apache.logging.log4j.core.script.Script"}
+,
+{
+  "name":"org.apache.logging.log4j.core.script.ScriptFile"}
+,
+{
+  "name":"org.apache.logging.log4j.core.script.ScriptRef"}
+,
+{
+  "name":"org.apache.logging.log4j.core.util.ExecutorServices"}
+,
+{
+  "name":"org.apache.logging.log4j.core.util.KeyValuePair"}
+,
+{
+  "name":"org.apache.logging.log4j.message.DefaultFlowMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.message.ParameterizedMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.util.internal.DefaultObjectInputFilter",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.apache.maven.surefire.booter.BaseProviderFactory",
+  "methods":[
+    {"name":"<init>","parameterTypes":["org.apache.maven.surefire.report.ReporterFactory","java.lang.Boolean"] }, 
+    {"name":"setClassLoaders","parameterTypes":["java.lang.ClassLoader","java.lang.ClassLoader"] }, 
+    {"name":"setDirectoryScannerParameters","parameterTypes":["org.apache.maven.surefire.testset.DirectoryScannerParameters"] }, 
+    {"name":"setProviderProperties","parameterTypes":["java.util.Properties"] }, 
+    {"name":"setReporterConfiguration","parameterTypes":["org.apache.maven.surefire.report.ReporterConfiguration"] }, 
+    {"name":"setRunOrderParameters","parameterTypes":["org.apache.maven.surefire.testset.RunOrderParameters"] }, 
+    {"name":"setTestArtifactInfo","parameterTypes":["org.apache.maven.surefire.testset.TestArtifactInfo"] }, 
+    {"name":"setTestRequest","parameterTypes":["org.apache.maven.surefire.testset.TestRequest"] }
+  ]}
+,
+{
+  "name":"org.apache.maven.surefire.booter.DirectoryScannerParametersAware"}
+,
+{
+  "name":"org.apache.maven.surefire.booter.ForkingReporterFactory",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.io.PrintStream"] }]}
+,
+{
+  "name":"org.apache.maven.surefire.booter.ProviderPropertiesAware"}
+,
+{
+  "name":"org.apache.maven.surefire.booter.ReporterConfigurationAware"}
+,
+{
+  "name":"org.apache.maven.surefire.booter.SurefireClassLoadersAware"}
+,
+{
+  "name":"org.apache.maven.surefire.booter.TestArtifactInfoAware"}
+,
+{
+  "name":"org.apache.maven.surefire.booter.TestRequestAware"}
+,
+{
+  "name":"org.apache.maven.surefire.junit4.JUnit4Provider",
+  "methods":[
+    {"name":"<init>","parameterTypes":["org.apache.maven.surefire.providerapi.ProviderParameters"] }, 
+    {"name":"invoke","parameterTypes":["java.lang.Object"] }
+  ]}
+,
+{
+  "name":"org.apache.maven.surefire.providerapi.ProviderParameters"}
+,
+{
+  "name":"org.apache.maven.surefire.report.ReporterConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":["java.io.File","java.lang.Boolean"] }]}
+,
+{
+  "name":"org.apache.maven.surefire.report.ReporterFactory"}
+,
+{
+  "name":"org.apache.maven.surefire.suite.RunResult",
+  "methods":[
+    {"name":"getCompletedCount","parameterTypes":[] }, 
+    {"name":"getErrors","parameterTypes":[] }, 
+    {"name":"getFailures","parameterTypes":[] }, 
+    {"name":"getSkipped","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"org.apache.maven.surefire.testset.DirectoryScannerParameters",
+  "methods":[{"name":"<init>","parameterTypes":["java.io.File","java.util.List","java.util.List","java.util.List","java.lang.Boolean","java.lang.String"] }]}
+,
+{
+  "name":"org.apache.maven.surefire.testset.RunOrderParameters",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"org.apache.maven.surefire.testset.TestArtifactInfo",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"org.apache.maven.surefire.testset.TestRequest",
+  "methods":[{"name":"<init>","parameterTypes":["java.util.List","java.io.File","java.lang.String","java.lang.String"] }]}
+,
+{
+  "name":"org.eclipse.jetty.http.pathmap.PathSpecSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.eclipse.jetty.server.handler.gzip.GzipHandler",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"addIncludedMethods","parameterTypes":["java.lang.String[]"] }
+  ]}
+,
+{
+  "name":"org.eclipse.jetty.servlets.CrossOriginFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.eclipse.jetty.util.ModuleLocation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.eclipse.jetty.util.RegexSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.eclipse.jetty.util.log.Slf4jLog",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.junit.runner.RunWith"}
+,
+{
+  "name":"org.mockito.internal.configuration.InjectingAnnotationEngine",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.mockito.internal.configuration.plugins.DefaultPluginSwitch",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockAccess",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForEquals",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForHashCode",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$ForWriteReplace",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"org.mockito.internal.creation.instance.DefaultInstantiatorProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.mockito.internal.matchers.Any",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.mockito.internal.matchers.CapturingMatcher",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.mockito.internal.matchers.Equals",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.mockito.internal.matchers.InstanceOf",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.mockito.internal.matchers.InstanceOf$VarArgAware",
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.mockito.internal.util.ConsoleMockitoLogger",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.mockito.internal.util.reflection.ReflectionMemberAccessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"redis.clients.jedis.BinaryJedis",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.Jedis",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.AdvancedBinaryJedisCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.AdvancedJedisCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.BasicCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.BinaryJedisCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.BinaryScriptingCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.ClusterCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.JedisCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.ModuleCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.MultiKeyBinaryCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.MultiKeyCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.ScriptingCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"redis.clients.jedis.commands.SentinelCommands",
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"scala.util.Properties",
+  "methods":[{"name":"versionNumberString","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.core.internal.interceptor.HttpChecksumRequiredInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.AsyncChecksumValidationInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.CreateBucketInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.CreateMultipartUploadRequestInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.DecodeUrlEncodedResponseInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.DisableDoubleUrlEncodingInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.EnableChunkedEncodingInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.EnableTrailingChecksumInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.EndpointAddressInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.ExceptionTranslationInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.GetBucketPolicyInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.GetObjectInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.PutObjectInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"software.amazon.awssdk.services.s3.internal.handlers.SyncChecksumValidationInterceptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.management.ClassLoadingImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.CompilationImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.ManagementFactoryHelper$1",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.MemoryImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.MemoryManagerImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.MemoryPoolImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.management.RuntimeImpl",
+  "queryAllPublicConstructors":true}
+,
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]}
+,
+{
+  "name":"sun.reflect.ReflectionFactory",
+  "methods":[
+    {"name":"getReflectionFactory","parameterTypes":[] }, 
+    {"name":"newConstructorForSerialization","parameterTypes":["java.lang.Class","java.lang.reflect.Constructor"] }
+  ]}
+,
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.DSA$SHA224withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.DSA$SHA256withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA2$SHA224",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA5$SHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.rsa.PSSParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.rsa.RSAPSSSignature",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.ssl.SSLContextImpl$TLSContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+
+]
